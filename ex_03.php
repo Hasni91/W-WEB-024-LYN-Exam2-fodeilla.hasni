@@ -6,7 +6,7 @@ function resum_join_str($str1  = NULL, $str2 = NULL){
         return false;
 
     $one = str_pad($str1,14,".");
-    $two = str_pad($str2,3,".");
+    $two = str_pad($str2,3,".",STR_PAD_LEFT);
     
     $subA = substr($one, 0, 14);
     $subB = substr($two,-3);

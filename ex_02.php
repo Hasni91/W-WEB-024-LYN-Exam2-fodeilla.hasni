@@ -26,5 +26,3 @@ function min_len_array($tab){
         }
     }
 }
-
-// var_dump(min_len_array( ["salut","s","c"] ));
